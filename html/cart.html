@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DreamWoodz</title>
+</head>
+<body>
+    <!-- landing page -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <p><a href="../html/index.html">DreamWoodz</a> </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/index.html">home</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="../html/account.html">account</a></li>
+                    
+                </ul>
+            </nav>
+            <!-- <img id="cart" class="cart-img" src="../ICONS/shopping-cart.png" alt=""> -->
+            <img id="cart" class="cart-img" src="https://img.icons8.com/android/24/4a90e2/shopping-cart.png"/>
+        </div>
+
+        <div class="cart">
+            <header>
+                <div>PRODUCT</div>
+                <div>PRICE</div>
+                <div>QUANTITY</div>
+            </header>
+            <br>
+            <div class="cart-items">
+                <div class="hori-1">
+                    <div class="items">
+                        <img src="../IMAGES/w1.jpg" alt="">
+                        <p>product name</p>
+                    </div>
+
+                    <div class="price">
+                        <p>GH₵<span class="cart-price">450</span></p>
+                    </div>
+
+                    <div class="quantity">
+                        <input type="number" class="cart-quantity-input" name="" id="numb" value='2'>
+                        <button class="rm" id="remove">Remove</button>
+                    </div>
+                </div>
+
+                <div class="hori-1">
+                    <div class="items">
+                        <img src="../IMAGES/w1.jpg" alt="">
+                        <p>product name</p>
+                    </div>
+
+                    <div class="price">
+                        <p>GH₵<span class="cart-price">450</span></p>
+                    </div>
+
+                    <div class="quantity">
+                        <input type="number" class="cart-quantity-input" name="" id="numb" value="1">
+                        <button class="rm" id="remove">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="total">
+                <p>total: GH₵<span class="sum">00.00</span></p>
+            </div>
+
+            <br>
+            <div class="purchase">
+                <button class="purchase">check out</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="../js/main.js" async></script>
+</body>
+</html>
